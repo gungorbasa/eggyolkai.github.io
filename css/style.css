@@ -1,0 +1,196 @@
+body {
+    background-color:#1d9fc0;
+    color:#fff;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.notvine-logo {
+    width:220px;
+    height:auto;
+    padding-top:15px
+}
+
+@media (max-width: 348px) {
+    .notvine-logo {
+        width:150px;
+        height:auto;
+        padding-top:25px
+    }
+}
+
+.overlay {
+
+	position:absolute;
+	background-color: rgba(0,0,0,0.7);
+	height:100%;
+	width:100%;
+	z-index:999;
+	display:none;
+}
+
+.overlay-links {
+
+	list-style: none;
+	text-align: center;
+	margin-top:20vh;
+
+}
+
+.overlay-links li a {
+
+	text-decoration: none;
+	color:#fff;
+	font-size: 200%;
+	font-weight:bold;
+}
+
+.menu-close {
+
+	height:40px;
+	padding-top:40px;
+	padding-right:7px;
+	width:auto;
+	float:right;
+	position:inline-block;
+}
+
+.nav ul {
+    float:right;
+    padding-top:45px;
+}
+
+.nav ul li {
+    display:inline-block;
+    color:#fff;
+    padding-left: 30px;
+
+}
+
+.nav ul li a {
+    color:#fff
+}
+
+.nav ul li a:hover {
+    color:grey;
+    cursor:pointer;
+}
+
+.title {
+    text-align: center;
+    padding-top:50px
+
+}
+
+.start-button {
+
+    background:#000;
+    color:#fff;
+    border-color: #000;
+    border-radius:0;
+}
+
+.start-button:hover {
+    color:grey;
+}
+
+.pic {
+    text-align: center;
+
+}
+
+#phone-pic {
+    height:500px;
+    margin:0 auto;
+    padding:0px 0px 0px 0px;
+
+}
+
+.section-2 {
+    background-color:#fff;
+    padding-top:40px;
+    padding-bottom: 30px
+}
+
+.featured {
+    width:1000px;
+    margin:0 auto;
+}
+
+.section-3 {
+    background-color: #F9F9F9;
+}
+
+#burger {
+    width:50px;
+    float:right;
+    padding-top:32px;
+    padding-left:20px;
+    display: none;
+}
+
+.burger-2 {
+    display: none;
+}
+
+@media (max-width: 550px) {
+    .burger-2 {
+        display:inline;
+    }
+
+    .burger-1 {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+
+	#burger {
+
+		display:inherit;
+	}
+}
+
+@media (max-width: 750px) {
+
+	.main-nav {
+
+		display:none;
+	}
+}
+
+.up {
+    padding-bottom: 15px
+}
+
+footer {
+    background-color:#fec216;
+    padding-top:50px;
+    color:#FFFFFF;
+}
+
+#joma {
+    height:150px;
+}
+
+.center {
+    text-align: center;
+
+}
+
+.center-div
+{
+     margin: 0 auto;
+     width: 100px;
+     height: 60px;
+}
